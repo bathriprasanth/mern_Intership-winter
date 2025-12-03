@@ -1,0 +1,19 @@
+.flexcontainer,.flexcontainer1{
+    border: 1px solid red;
+    display: flex;
+    height: 200px;
+    flex-direction: column  ;
+    /* justify content is used for allign the page */
+    justify-content: start;
+    /* gap: 15px; for the gap */
+    /* align-items: left; for the left side */
+    align-self: center;
+}
+.flexitem{
+    background-color: yellow;
+    border: 1px solid red;
+    color: red;
+    font-size: 24px;
+    height: 50px;
+    width: 80px;
+}
